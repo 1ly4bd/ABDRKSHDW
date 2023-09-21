@@ -8,6 +8,9 @@
            h1 {
                text-align: center;
            }
+           h2 {
+               text-align: center;
+           }
            p {
                text-align: center;
            }
@@ -36,21 +39,23 @@
                 flex-wrap: wrap;
                 font-size: 1.2em;
             }
-            .header, .aboutme, .footer{
+            .header, .footer{
     padding: 50px 50px;
     color :black;
     box-sizing: border-box;
             }
+            
             .header {
-                flex-basis: 100%;
-            }
-            .aboutme {
                 flex-basis: 100%;
             }
 
             .footer {
                 flex-basis: 100%;
                 flex-direction: column;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
             }
 
 nav ul {
@@ -127,9 +132,7 @@ body::before {
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-       <div class="aboutme"><h2>Presentation</h2>
-        <p2>[quickly present the website]</p2></div> 
+        </header> 
        <footer class="footer">Copyrights: yen a pas lmao</footer>
        
    </body>
