@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+   <head>
+       <title>Computing Gallery</title>
+       <meta charset="UTF-8">
+       <style>
+           h1 {
+               text-align: center;
+           }
+           p {
+               text-align: center;
+           }
+           .centered-link {
+            display: block;
+            text-align: center;
+        }
+           @font-face {
+        font-family: Gruppo; 
+        src: url('Gruppo-Regular.ttf') format('truetype'); 
+            }
+            * {
+        font-family: Gruppo, sans-serif; 
+            }
+        
+            body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gruppo', sans-serif;
+            }   
+
+            body {
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 1.2em;
+            }
+            .header, .aboutme, .footer{
+    padding: 50px 50px;
+    color :black;
+    box-sizing: border-box;
+            }
+            .header {
+                flex-basis: 100%;
+            }
+
+            nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+       </style>
+   </head>
+  
+   <body>
+        <header class="header">
+            <h1>Computing Gallery</h1>
+            <p style="text-align:center">Here will be all my computing projects</p>
+            <nav>
+                <ul>
+                    <li><a href="mainpage.html">Home page</a></li>
+                    <li><a href="galeries.html">Galleries</a>
+                        <ul>
+                            <li><a href="computing.html">Computing Gallery</a></li>
+                            <li><a href="Design.html">Design Gallery</a></li>
+                            <li><a href="fashion.html">Fashion Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </body>
+</html>
